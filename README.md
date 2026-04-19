@@ -53,7 +53,7 @@ Users provide a job description, and the app generates interview questions, eval
 
 /public            # Static assets (images, icons)
 
-/env              # Environment variables (not committed)
+/env               # Environment variables (not committed)
 
-next.config.js    # Next.js configuration
-package.json      # Project dependencies
+next.config.js     # Next.js configuration
+package.json       # Project dependencies
