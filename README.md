@@ -57,3 +57,32 @@ Users provide a job description, and the app generates interview questions, eval
 
 next.config.js     # Next.js configuration
 package.json       # Project dependencies
+
+## ⚙️ Setup & Installation
+
+### 1. Install Dependencies
+
+```bash
+npm install
+```
+
+### 2. Add Environment Variables
+
+Create a `.env.local` file in the root directory and add:
+
+```env
+GEMINI_API_KEY=your_api_key_here
+```
+
+### 3. Run the Development Server
+
+```bash
+npm run dev
+```
+
+### 4. Open in Browser
+
+The app will be available at:
+
+http://localhost:3000
+
