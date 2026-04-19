@@ -40,3 +40,20 @@ Users provide a job description, and the app generates interview questions, eval
 ---
 
 ## 📂 Project Structure (Example)
+
+/app
+  /components      # Reusable UI components (buttons, cards, modals)
+  /interview       # Interview flow pages (questions, results)
+  /api             # API routes (Gemini integration)
+  /hooks           # Custom React hooks
+  /utils           # Helper functions (scoring, formatting)
+  /styles          # Global styles (Tailwind / CSS)
+  layout.js        # Root layout
+  page.js          # Home page
+
+/public            # Static assets (images, icons)
+
+/env              # Environment variables (not committed)
+
+next.config.js    # Next.js configuration
+package.json      # Project dependencies
